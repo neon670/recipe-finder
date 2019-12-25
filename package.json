@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm run build "
+    "start": "webpack-dev-server --mode development --open"
   },
-  "author": "Nevarez Media",
+  "author": "Nevarez-Media",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.7",
